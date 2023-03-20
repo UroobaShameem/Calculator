@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="main">
+        <form name="f">
+            <input type="text" name="t" /> <br>
+            <input type="button" value="1" onclick="f.t.value+=1">
+            <input type="button" value="2" onclick="f.t.value+=2">
+            <input type="button" value="3" onclick="f.t.value+=3">
+            <input type="button" value="+" onclick="f.t.value+='+'"> <br>
+
+            <input type="button" value="4" onclick="f.t.value+=4">
+            <input type="button" value="5" onclick="f.t.value+=5">
+            <input type="button" value="6" onclick="f.t.value+=6">
+            <input type="button" value="-" onclick="f.t.value+='-'"> <br>
+
+            <input type="button" value="7" onclick="f.t.value+=7"> 
+            <input type="button" value="8" onclick="f.t.value+=8">
+            <input type="button" value="9" onclick="f.t.value+=9">
+            <input type="button" value="/" onclick="f.t.value+='/'"> <br>
+
+            <input type="button" value="C" onclick="f.t.value=''">
+            <input type="button" value="0" onclick="f.t.value+=0">
+            <input type="button" value="=" onclick="f.t.value=eval(f.t.value)">
+            <input type="button" value="x" onclick="f.t.value+='*'"> <br>
+
+        </form>
+    </div>
+</body>
+</html>
