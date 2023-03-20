@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#main {
+    width: 550px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+input {
+    width: 20%;
+    height: 110px;
+    background-color: lightyellow;
+    font-size: 35px;
+    margin: 2px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+#box {
+    width: 84%;
+    height: 80px;
+    border: 1px solid #000;
+    cursor: default;
+    background-color: rgb(235, 232, 232);
+}
