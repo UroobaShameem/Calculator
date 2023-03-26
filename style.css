@@ -3,12 +3,10 @@ body{
     padding: 0;
 }
 #main {
-    width: 550px;
-    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+
 }
 
 input {
@@ -27,3 +25,12 @@ input {
     cursor: default;
     background-color: rgb(235, 232, 232);
 }
+
+@media screen and (max-width: 550px) {
+    #main {
+        padding-left: 10%;
+        padding-top: 5%;
+    }
+    
+}
+    
